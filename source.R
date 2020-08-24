@@ -65,6 +65,7 @@ fn.gen.bincls.binb <- function(a, d, n, rate) {
   
   
   # Return
+  print(paste("Maximum achievable AUC:", round(x = (p + r) / (p + q + r), digits = 4)))
   return(data.frame(x, y))
 }
 
